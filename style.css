@@ -1,0 +1,199 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #378837;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  nav li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    display: inline-block;
+    width: 80px;
+    text-decoration: none;
+  }
+  
+  main {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  main h1 {
+    color: #333;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 200px;
+    text-transform: uppercase;
+  }
+
+  main h2 {
+    font-size: 45px;
+    color: #fff;
+    text-shadow: -4px 3px 3px #000000;
+  }
+  
+  footer {
+    background-color: rgb(9, 65, 18);
+    color: #fff;
+    padding: 1px 0;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 27px;
+  }
+
+  .navbar {
+    display: table;
+  }
+
+  .logo {
+    width: 280%;
+  }
+
+  .headernav {
+    padding-left: 155px;
+    vertical-align: middle;
+    display: table-cell;
+    text-decoration: none;
+  }
+
+  .linklogo {
+    padding-top: 41px;
+    padding-bottom: 17px;
+    padding-right: 13px;
+  }
+  .linklogo:hover, .linknav:hover {
+    background-color: rgb(9, 65, 18);
+  }
+
+  .linknav {
+    text-decoration: none;
+    color: #fff;
+    padding: 29px 15px;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  
+  .headimg {
+    height: 600px;
+    background-image: url("assets/homehead.jpg");
+    background-size: cover;
+  }
+
+  .profileimg {
+    height: 600px;
+    background-image: url("assets/profile.jpg");
+    background-size: cover;
+  }
+
+  .coverprau {
+    height: 600px;
+    background-image: url("assets/prau.jpg");
+    background-size: cover;
+  }
+
+  .konten {
+    max-width: 900px;
+    margin-top: 101px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .konten .container {
+    display: table;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 20px auto;
+  }
+
+  .gunung {
+    display: table-cell;
+    background-size: cover;
+    height: 230px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: -4px 3px 3px #000000;
+  }
+
+  .gunung h1 {
+      padding-top: 25px;
+  }
+
+  .biodata, .information {
+    display: table-cell;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .biodata p {
+    width: 50%;
+    margin: 15px auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .information ul, .information p{
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .information p{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 30px;
+    text-align: justify;
+  }
+
+  #prau {
+    background-image: url("assets/prau-thumb.jpg");
+  }
+
+  #gede {
+    background-image: url("assets/gede-thumb.jpg");
+  }
+
+  #semeru {
+    background-image: url("assets/semeru-thumb.jpg");
+  }
+
+  .btndefault {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background-color: #378837;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: none;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .btndefault:hover {
+    background-color: rgb(9, 65, 18);
+  }
