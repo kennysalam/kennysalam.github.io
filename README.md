@@ -1,2 +1,2 @@
-# C00LZ.github.io
+# kennysalam.github.io
 Tugas website pertama
