@@ -113,6 +113,18 @@ html, body {
     background-size: cover;
   }
 
+  .covergede {
+    height: 600px;
+    background-image: url("assets/gede.jpg");
+    background-size: cover;
+  }
+
+  .coversemeru {
+    height: 600px;
+    background-image: url("assets/semeru.jpg");
+    background-size: cover;
+  }
+
   .konten {
     max-width: 900px;
     margin-top: 101px;
